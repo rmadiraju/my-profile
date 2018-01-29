@@ -24,32 +24,70 @@
       "title": "Senior Software Engineer",
       "company": "Capital One",
       "url": "www.capitalone.com",
-      "duration": "",
+      "duration": "November 2015 - Present",
       "details": [
         {
-          "item": ""
+          "item": "Implemented External SwiftID APIs",
+          "item": "Supported clients for DSD API Integration",
+          "item": "Designed and Implemented CI-Self Service and CI Dashboard Portals",
+          "item": "Implemented DMS Listener",
+          "item": "Designed and Implemented Eno Registration Web & APIs",
+          "item": "Implemented Cache for Eno (using Redis)",
+          "item": "Implementing use cases for Eno",
+          "item": "Implemented GitFlow for Watchmen Team (DSD) & DMS Listener",
+          "item": "Created CI/CD Jobs for Watchmen Team & DMS Listener",
+          "item": "Mainainted AWS stacks for Watchmen Team",
+          "item": "Implementing CI/CD pipeline jobs for Eno"
         }
       ]
     },
     {
-      "title": "",
-      "company": "",
-      "duration": "",
+      "title": "Software Architect",
+      "company": "Gemalto Inc",
+      "url": "www.gemalto.com",
+      "duration": "November 2013 - October 2015",
       "details": [
         {
-          "item": ""
+          "item": "Defined and Implemented Unit testing, code coverage and Java docs and have them as part of build process",
+          "item": "Responsible for 3rd party libraries and maintainance",
+          "item": "Implementation of MQTT messaging",
+          "item": "Implementation of batch process using Spring Batch",
+          "item": "Merging of services and migrating from SVN to Mercurial",
+          "item": "Performance tuning/testing (identifying the profiling tool; complete POC on different profiling tools and get the approval for budget presenting the advantages of selected profiling tool)"
         }
       ]
     },
     {
-      "title": "",
-      "company": "",
-      "duration": "",
+      "title": "Technical Lead",
+      "company": "IBM",
+      "url": "www.ibm.com",
+      "duration": "November 2003 - October 2013",
       "details": [
         {
-          "item": ""
+          "item": "Architected, designed, led and developed the 2xCompensation",
+          "item": "Designed and developed the custom Flex Advanced data grid",
+          "item": "Enhanced the home built Field and Page frameworks to support Performance Appraisal module",
+          "item": "Developed custom components in JSF using JFree Charts",
+          "item": "Implemented Generic JSP to reduce the creation of JSP pages in the application",
+          "item": "Created performance scripts using Load Runner Tool",
+          "item": "Point of contact for all external teams such as, DB, UX, SCM, Product Management",
+          "item": "Managed a team of 11 including 3 QA",
+          "item": "Responsible for managing the user story estimations, allocation and tracking"
         }
       ]
+    }
+  ],
+  "awards": [
+    {
+      "award": "Tech Excellence for Eno - Q1 2017 (Capital One)",
+      "award": "Mustache Award - Q2 & Q3 2016 (Capital One)",
+      "award": "Tech Excellence for External SwiftID - Q1 2016 (Capital One)",
+      "award": "Awarded ‘Responsiveness’ in Q2 2011 (IBM)",
+      "award": "Awarded ‘Mutual Learning’ in Q3 2009 (IBM)",
+      "award": "Awarded ‘Leadership Initiative’ Award in Q1 2008 (IBM)",
+      "award": "Awarded ‘Best Individual Performance’ in Q4 2006 (IBM)",
+      "award": "Awarded ‘Best Innovation’ in Q2 2006 (IBM)",
+      "award": "‘Best Team’ award for KCT in Q2 2005 (IBM)"
     }
   ]
 }
