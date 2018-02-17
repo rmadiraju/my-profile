@@ -9,8 +9,8 @@ a:focus                                 { text-decoration:underline; }
 
 /* Profile CSS */
 .about-me-circle {
-	background-image: linear-gradient(to bottom, #54bccf 5%, #1996ec 95%);
-	background-color: #54bccf;
+	background-image: linear-gradient(to bottom, #babebf 5%, #babebf 95%);
+	background-color: #babebf;
 	width: 175px;
 	height: 175px;
 	border-radius: 9999px;
@@ -18,7 +18,26 @@ a:focus                                 { text-decoration:underline; }
 	cursor: pointer;
 	margin-left: 10em;
 }
-
+.home-circle-small {
+	background-image: linear-gradient(to bottom, #54bccf 5%, #1996ec 95%);
+	background-color: #54bccf;
+	width: 60px;
+	height: 60px;
+	border-radius: 9999px;
+	box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.17);
+	cursor: pointer;
+	margin-left: 10em;
+}
+.about-me-circle-small {
+	background-image: linear-gradient(to bottom, #babebf 5%, #babebf 95%);
+	background-color: #babebf;
+	width: 60px;
+	height: 60px;
+	border-radius: 9999px;
+	box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.17);
+	cursor: pointer;
+	margin-left: 10em;
+}
 .skills-circle {
 	background-image: linear-gradient(to bottom, #dcd8d8 5%, #dcd8d8 95%);
 	background-color: #dcd8d8;
@@ -29,7 +48,16 @@ a:focus                                 { text-decoration:underline; }
 	cursor: pointer;
 	margin-left: 30em;
 }
-
+.skills-circle-small {
+	background-image: linear-gradient(to bottom, #dcd8d8 5%, #dcd8d8 95%);
+	background-color: #dcd8d8;
+	width: 60px;
+	height: 60px;
+	border-radius: 9999px;
+	box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.17);
+	cursor: pointer;
+	margin-left: 10em;
+}
 .work-circle {
 	background-image: linear-gradient(to bottom, #f3efe0 5%, #f9efcc 95%);
 	background-color: #f3efe0;
@@ -39,6 +67,16 @@ a:focus                                 { text-decoration:underline; }
 	box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.17);
 	cursor: pointer;
 	margin-left: 50em;
+}
+.work-circle-small {
+	background-image: linear-gradient(to bottom, #f3efe0 5%, #f9efcc 95%);
+	background-color: #f3efe0;
+	width: 60px;
+	height: 60px;
+	border-radius: 9999px;
+	box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.17);
+	cursor: pointer;
+	margin-left: 10em;
 }
 .col-md-4 {
 	width: 33%;
