@@ -5,9 +5,9 @@
         .module('app')
         .controller('ProfileController', ProfileController);
 
-    ProfileController.$inject = ['$location', '$rootScope', '$scope', 'RestCallerService', '$cookies','$window','$cookieStore'];
+    ProfileController.$inject = ['$location', '$rootScope', '$scope', '$cookies','$window','$cookieStore'];
     
-    function ProfileController($location, $rootScope, $scope, RestCallerService, $cookies,$window,$cookieStore) {
+    function ProfileController($location, $rootScope, $scope, $cookies,$window,$cookieStore) {
 
         //Initialize view-model for controller
         var vm = this;
