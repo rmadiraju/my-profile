@@ -1,8 +1,16 @@
 <head>
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/base.css">
+        <style>
+                .phone_messages_active {display: block}
+                .phone_messages_inactive   {display: none;}
+                .footer_links_expand   {display: block;}
+                .footer_links_collapse   {display: none;}
+                .faq_collapse {background-image: url(images/down_caret.png);background-repeat: no-repeat;background-position: right center;}
+                .faq_expand {background-image: url(images/up_caret.png);background-repeat: no-repeat;background-position: right center;}
+        </style>
 </head>
-<div class="servicing" id="choose_number">
+<div >
 
 
 
@@ -15,12 +23,12 @@
             <br><span style="margin-left: 2em;">About me</span>
         </div>
 
-        <div class="skills-circle" style="margin-top: -8.4em" ng-click="vm.openSkills()">
+        <div class="skills-circle" style="margin-top: -8.7em" ng-click="vm.openSkills()">
             <i class="fa fa-wrench fa-4x" style="margin-left: 0.70em;margin-top: 0.45em;color:green"></i>
             <br><span style="margin-left: 3.5em;">Skills</span>
         </div>
 
-        <div class="work-circle" style="margin-top: -8.4em" ng-click="vm.openWork()">
+        <div class="work-circle" style="margin-top: -8.7em" ng-click="vm.openWork()">
             <i class="fa fa-briefcase fa-4x" style="margin-left: 0.60em;margin-top: 0.55em;color:green"></i>
             <br><span style="margin-left: 3.3em;margin-top: 0.1em">Work</span>
         </div>
@@ -33,25 +41,27 @@
         </div>
 
         <div  style="margin-left:23em;margin-top: -8.4em;width: 80%;align:center;">
-            <ui style="color:powderblue;">
-                <li style="margin-bottom: 1em">
-                    Experience: 13+ Years in Software Development
-                </li>
-                <li style="margin-bottom: 1em">
-                    What else? 3+ Years in leading teams
-                </li>
-                <li style="margin-bottom: 1em">
-                    Interests: Product Development, Innovating and Developing Tools
-                </li>
-                <li style="margin-bottom: 1em">
-                    Why me? Quick learner, Problem Solving, Technologies
-                </li>
-                <li style="margin-bottom: 1em">
-                    What I want? Something to learn every day!
-                </li>
-            </ui>
-
-
+            <div id="education">
+                <h2 style="color:powderblue;font-size: 28px;font-weight: 300;margin-bottom: 0.3em;">Education <i class="fa fa-graduation-cap fa" style="margin-bottom: 0.3em;margin-left: 5px;color:powderblue"></i></h2>
+                <h3 style="color:grey;font-size: 20px;font-weight: 200;margin-left:1em;margin-bottom: 1em;">Bachelors in Electronics & Communication Engineering
+                    JNTU, Hyderabad, India </h3>
+            </div>
+            <div id="experience">
+                <h2 style="color:powderblue;font-size: 28px;font-weight: 300;margin-bottom: 0.3em;">Experience <i class="fa fa-briefcase fa" style="margin-bottom: 0.3em;margin-left: 5px;color:powderblue"></i></h2>
+                <h3 style="color:grey;font-size: 20px;font-weight: 200;margin-left:1em;margin-bottom: 1em;">13+ years in Software Development including 3+ years in leading teams </h3>
+            </div>
+            <div id="interests">
+                <h2 style="color:powderblue;font-size: 28px;font-weight: 300;margin-bottom: 0.3em;">Interests <i class="fa fa-thumbs-up fa" style="margin-bottom: 0.3em;margin-left: 5px;color:powderblue"></i></h2>
+                <h3 style="color:grey;font-size: 20px;font-weight: 200;margin-left:1em;margin-bottom: 1em;">Product Development, Innovating, Developing New Tools </h3>
+            </div>
+            <div id="whoami">
+                <h2 style="color:powderblue;font-size: 28px;font-weight: 300;margin-bottom: 0.3em;">Who am I <i class="fa fa-question fa" style="margin-bottom: 0.3em;margin-left: 5px;color:powderblue"></i></h2>
+                <h3 style="color:grey;font-size: 20px;font-weight: 200;margin-left:1em;margin-bottom: 1em;">Full stack engineer, Quick learner, Solution oriented </h3>
+            </div>
+            <div id="lookingfor">
+                <h2 style="color:powderblue;font-size: 28px;font-weight: 300;margin-bottom: 0.3em;">What am I looking for? <i class="fa fa-check-circle fa" style="margin-bottom: 0.3em;margin-left: 5px;color:powderblue"></i></h2>
+                <h3 style="color:grey;font-size: 20px;font-weight: 200;margin-left:1em;margin-bottom: 1em;">Work in a team, where I can learn new everyday! </h3>
+            </div>
 
         </div>
 
@@ -137,6 +147,57 @@
         <div class="about-me-circle" ng-click="vm.home()">
             <i class="fa fa-home fa-4x" style="margin-left: 0.65em;margin-top: 0.45em;color:green"></i>
             <br><span style="margin-left: 3em;">Home</span>
+        </div>
+        <!--<div  style="margin-left:25em;margin-top: -7em;align:center;">-->
+            <!--<h2 style="color:#f9efcc;font-size: 28px;font-weight: 300;">Education</h2>-->
+
+        <!--</div>-->
+        <div id="work1">
+            <div  id="comp1" style="margin-left:22em;margin-top: -7em;margin-bottom: 1em;">
+                <h2 style="color:#f9efcc;font-size: 28px;font-weight: 300;margin-bottom: 0.5em;align:center;">Capital One</h2>
+                <h3 style="color:grey;font-size: 20px;font-weight: 200;align:center;">Nov 2015 to Present </h3>
+            </div>
+
+            <div id="details1" style="width:40%;margin-left:40em;margin-top: -4.2em;margin-bottom: 1em;">
+                <h2 style="color:#f9efcc;font-size: 22px;font-weight: 200;margin-bottom: 0.5em;align:center;">Principal Associate</h2>
+                <h3 style="color:grey;font-size: 19px;font-weight: 200;align:center;margin-bottom: 0.1em;">Working as a Senior Full Stack Developer in Digital Organization</h3>
+                <h3 style="color:#62f5ef;font-size: 15px;font-weight: 200;align:center;"><i class="fa fa-map-marker fa" style="margin-right: 0.2em"></i> Plano, TX <font style="margin-left:0.2em;margin-right:0.2em;color:grey">| </font> <i class="fa fa-link fa" style="margin-left: 0.1em;margin-right: 0.2em"></i> <a style="color:#62f5ef" href="www.capitalone.com">www.capitalone.com</a></h3>
+            </div>
+        </div>
+
+        <div id="work2">
+            <div  id="comp2" style="margin-left:22em;margin-top: 3em;margin-bottom: 1em;">
+                <h2 style="color:#f9efcc;font-size: 28px;font-weight: 300;margin-bottom: 0.5em;align:center;">Gemalto</h2>
+                <h3 style="color:grey;font-size: 20px;font-weight: 200;align:center;">Nov 2013 to Oct 2015 </h3>
+            </div>
+
+            <div id="details2" style="width:40%;margin-left:40em;margin-top: -4.2em;margin-bottom: 1em;">
+                <h2 style="color:#f9efcc;font-size: 22px;font-weight: 200;margin-bottom: 0.5em;align:center;">Solution Architect</h2>
+                <h3 style="color:grey;font-size: 19px;font-weight: 200;align:center;margin-bottom: 0.1em;">Worked as Architect for M2M products</h3>
+                <h3 style="color:#62f5ef;font-size: 15px;font-weight: 200;align:center;"><i class="fa fa-map-marker fa" style="margin-right: 0.2em"></i> Austin, TX <font style="margin-left:0.2em;margin-right:0.2em;color:grey">| </font> <i class="fa fa-link fa" style="margin-left: 0.1em;margin-right: 0.2em"></i> <a style="color:#62f5ef" href="www.gemalto.com">www.gemalto.com</a></h3>
+            </div>
+        </div>
+
+        <div id="work3">
+            <div  id="comp3" style="margin-left:22em;margin-top: 3em;margin-bottom: 1em;">
+                <h2 style="color:#f9efcc;font-size: 28px;font-weight: 300;margin-bottom: 0.5em;align:center;">IBM</h2>
+                <h3 style="color:grey;font-size: 20px;font-weight: 200;align:center;">Nov 2004 to Oct 2013 </h3>
+            </div>
+
+            <div id="details3" style="width:40%;margin-left:40em;margin-top: -4.2em;margin-bottom: 1em;">
+                <h2 style="color:#f9efcc;font-size: 22px;font-weight: 200;margin-bottom: 0.5em;align:center;">Technical Lead</h2>
+                <h3 style="color:grey;font-size: 19px;font-weight: 200;align:center;margin-bottom: 0.1em;">Architected, designed, led and developed products in Human Capital Management (Compensation, Performance, Recruitment)</h3>
+                <h3 style="color:#62f5ef;font-size: 15px;font-weight: 200;align:center;"><i class="fa fa-map-marker fa" style="margin-right: 0.2em"></i> Wayne, PA <font style="margin-left:0.2em;margin-right:0.2em;color:grey">| </font> <i class="fa fa-link fa" style="margin-left: 0.1em;margin-right: 0.2em"></i> <a style="color:#62f5ef" href="www.ibm.com">www.ibm.com</a></h3>
+            </div>
+        </div>
+
+    </div>
+
+    <div >
+        <hr style="width:90%;margin-top: 5em">
+        <div id="contact" style="width:70%;margin-left:11em;margin-top: 1em;margin-bottom: 1em;">
+            <h2 style="color:#f9efcc;font-size: 32px;font-weight: 200;margin-bottom: 0.5em;align:center;margin-left:14em;">Contact</h2>
+            <h3 style="color:#b4b3b3;font-size: 15px;font-weight: 200;align:center;"><i class="fa fa-linkedin fa-2x" style="margin-right: 0.2em;"></i> </i> <a style="color:#b4b3b3" href="https://www.linkedin.com/in/rmadiraju">https://www.linkedin.com/in/rmadiraju</a> <font style="margin-left:7em;margin-right:0.2em;color:grey">| </font> <i class="fa fa-mobile fa-2x" style="margin-left: 0.1em;margin-right: 0.2em"></i>484.620.0055 <font style="margin-left:7em;margin-right:0.2em;color:grey">| </font> <i class="fa fa-envelope fa-2x" style="margin-left: 0.1em;margin-right: 0.2em"></i>raghuram.madiraju@hotmail.com</h3>
         </div>
 
     </div>
