@@ -20,8 +20,8 @@ a:focus                                 { text-decoration:underline; }
 }
 
 .skills-circle {
-	background-image: linear-gradient(to bottom, #54bccf 5%, #1996ec 95%);
-	background-color: #54bccf;
+	background-image: linear-gradient(to bottom, #dcd8d8 5%, #dcd8d8 95%);
+	background-color: #dcd8d8;
 	width: 175px;
 	height: 175px;
 	border-radius: 9999px;
@@ -31,12 +31,18 @@ a:focus                                 { text-decoration:underline; }
 }
 
 .work-circle {
-	background-image: linear-gradient(to bottom, #54bccf 5%, #1996ec 95%);
-	background-color: #54bccf;
+	background-image: linear-gradient(to bottom, #f3efe0 5%, #f9efcc 95%);
+	background-color: #f3efe0;
 	width: 175px;
 	height: 175px;
 	border-radius: 9999px;
 	box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.17);
 	cursor: pointer;
 	margin-left: 50em;
+}
+.col-md-4 {
+	width: 33%;
+}
+.col-md-8 {
+	width: 67%;
 }
