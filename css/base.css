@@ -1,0 +1,42 @@
+body								{ font-family:'Optimist',Verdana,sans-serif; font-weight:500; font-size:20px; line-height:24px; color:#011829; ‑webkit‑text‑size‑adjust:100%; }
+.wrap								{ width:90%; max-width:1120px; position:relative; margin:0 auto; }
+
+a									{ text-decoration:none; color:#0178A2; }
+a:hover					{ text-decoration:underline; outline:none; }
+a:focus                                 { text-decoration:underline; }
+
+
+
+/* Profile CSS */
+.about-me-circle {
+	background-image: linear-gradient(to bottom, #54bccf 5%, #1996ec 95%);
+	background-color: #54bccf;
+	width: 175px;
+	height: 175px;
+	border-radius: 9999px;
+	box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.17);
+	cursor: pointer;
+	margin-left: 10em;
+}
+
+.skills-circle {
+	background-image: linear-gradient(to bottom, #54bccf 5%, #1996ec 95%);
+	background-color: #54bccf;
+	width: 175px;
+	height: 175px;
+	border-radius: 9999px;
+	box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.17);
+	cursor: pointer;
+	margin-left: 30em;
+}
+
+.work-circle {
+	background-image: linear-gradient(to bottom, #54bccf 5%, #1996ec 95%);
+	background-color: #54bccf;
+	width: 175px;
+	height: 175px;
+	border-radius: 9999px;
+	box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.17);
+	cursor: pointer;
+	margin-left: 50em;
+}
