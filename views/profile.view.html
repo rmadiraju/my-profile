@@ -1,0 +1,157 @@
+<head>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" type="text/css" href="css/footer.css">
+        <style>
+                .phone_messages_active {display: block}
+                .phone_messages_inactive   {display: none;}
+                .footer_links_expand   {display: block;}
+                .footer_links_collapse   {display: none;}
+                .faq_collapse {background-image: url(images/down_caret.png);background-repeat: no-repeat;background-position: right center;}
+                .faq_expand {background-image: url(images/up_caret.png);background-repeat: no-repeat;background-position: right center;}
+        </style>
+</head>
+<div class="servicing" id="choose_number">
+
+
+
+    <h1 style="margin-top: 2em;margin-bottom:15px;font-size: 54px;color:#22A39F;font-weight: 300;">Raghuram Madiraju</h1><br>
+    <h1 style="margin-bottom:15px;font-size: 30px;color:lightgrey;font-weight: 300;">Full Stack Developer</h1><br>
+
+    <div ng-show="vm.showHome">
+        <div class="about-me-circle" ng-click="vm.openAbout()">
+            <i class="fa fa-child fa-4x" style="margin-left: 0.70em;margin-top: 0.45em;color:green"></i>
+            <br><span style="margin-left: 2em;">About me</span>
+        </div>
+
+        <div class="skills-circle" style="margin-top: -8.4em" ng-click="vm.openSkills()">
+            <i class="fa fa-wrench fa-4x" style="margin-left: 0.70em;margin-top: 0.45em;color:green"></i>
+            <br><span style="margin-left: 3.5em;">Skills</span>
+        </div>
+
+        <div class="work-circle" style="margin-top: -8.4em" ng-click="vm.openWork()">
+            <i class="fa fa-briefcase fa-4x" style="margin-left: 0.60em;margin-top: 0.55em;color:green"></i>
+            <br><span style="margin-left: 3.3em;margin-top: 0.1em">Work</span>
+        </div>
+    </div>
+
+    <div ng-show="vm.showAbout">
+        <div class="about-me-circle" ng-click="vm.home()">
+            <i class="fa fa-home fa-4x" style="margin-left: 0.65em;margin-top: 0.45em;color:green"></i>
+            <br><span style="margin-left: 3em;">Home</span>
+        </div>
+
+        <div  style="margin-left:23em;margin-top: -8.4em;width: 80%;align:center;">
+            <ui style="color:powderblue;">
+                <li style="margin-bottom: 1em">
+                    Experience: 13+ Years in Software Development
+                </li>
+                <li style="margin-bottom: 1em">
+                    What else? 3+ Years in leading teams
+                </li>
+                <li style="margin-bottom: 1em">
+                    Interests: Product Development, Innovating and Developing Tools
+                </li>
+                <li style="margin-bottom: 1em">
+                    Why me? Quick learner, Problem Solving, Technologies
+                </li>
+                <li style="margin-bottom: 1em">
+                    What I want? Something to learn every day!
+                </li>
+            </ui>
+
+
+
+        </div>
+
+    </div>
+
+    <div ng-show="vm.showSkills">
+        <div class="about-me-circle" ng-click="vm.home()">
+            <i class="fa fa-home fa-4x" style="margin-left: 0.65em;margin-top: 0.45em;color:green"></i>
+            <br><span style="margin-left: 3em;">Home</span>
+        </div>
+
+        <div  style="margin-left:23em;margin-top: -8.4em;width: 80%;align:center;">
+            <ui style="color:powderblue;">
+                <li style="margin-bottom: 1em">
+                    Software Development
+                </li>
+                <li style="margin-bottom: 1em">
+                    Design, UML
+                </li>
+                <li style="margin-bottom: 1em">
+                    Java, Scala
+                </li>
+                <li style="margin-bottom: 1em">
+                    Spring
+                </li>
+                <li style="margin-bottom: 1em">
+                    Microservices
+                </li>
+                <li style="margin-bottom: 1em">
+                    RESTFul Services
+                </li>
+                <li style="margin-bottom: 1em">
+                    Kafka
+                </li>
+                <li style="margin-bottom: 1em">
+                    Angular
+                </li>
+                <li style="margin-bottom: 1em">
+                    Git, TFS, SVN, CVS, Mercurial, VSS
+                </li>
+            </ui>
+
+
+
+        </div>
+        <div  style="margin-left:45em;margin-top: -19.8em;width: 80%;align:center;">
+            <ui style="color:powderblue;">
+                <li style="margin-bottom: 1em">
+                    AWS
+                </li>
+                <li style="margin-bottom: 1em">
+                    Docker
+                </li>
+                <li style="margin-bottom: 1em">
+                    Ant, Mavent, Ivy
+                </li>
+                <li style="margin-bottom: 1em">
+                    Jenkins
+                </li>
+                <li style="margin-bottom: 1em">
+                    Oracle, MySQL, PostGres
+                </li>
+                <li style="margin-bottom: 1em">
+                    Redis, Terracotta
+                </li>
+                <li style="margin-bottom: 1em">
+                    Hibernate
+                </li>
+                <li style="margin-bottom: 1em">
+                    JUnit, TestNG, JMockIt
+                </li>
+                <li style="margin-bottom: 1em">
+                    Agile, Project Management
+                </li>
+            </ui>
+
+
+
+        </div>
+    </div>
+
+    <div ng-show="vm.showWork">
+        <div class="about-me-circle" ng-click="vm.home()">
+            <i class="fa fa-home fa-4x" style="margin-left: 0.65em;margin-top: 0.45em;color:green"></i>
+            <br><span style="margin-left: 3em;">Home</span>
+        </div>
+
+    </div>
+
+
+
+
+
+</div>
