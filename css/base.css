@@ -84,3 +84,18 @@ a:focus                                 { text-decoration:underline; }
 .col-md-8 {
 	width: 67%;
 }
+.button-t {
+	font-size: 18px;
+	line-height: 16px;
+	box-shadow: 0 0 0 2px #fdfdfd inset;
+	color: #fdfdfd !important;
+	font-weight: 600;
+	cursor: pointer;
+	display: inline-block;
+	border-radius: 3px;
+	text-align: center;
+	text-transform: capitalize;
+	padding: 14px 24px;
+	background-color: transparent;
+	text-decoration: none !important;
+}
