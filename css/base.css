@@ -46,7 +46,7 @@ a:focus                                 { text-decoration:underline; }
 	border-radius: 9999px;
 	box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.17);
 	cursor: pointer;
-	margin-left: 32em;
+	margin-left: 31.8em;
 }
 .skills-circle-small {
 	background-image: linear-gradient(to bottom, #dcd8d8 5%, #dcd8d8 95%);
